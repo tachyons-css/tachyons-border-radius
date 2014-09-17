@@ -8,6 +8,58 @@ npm install --save-dev tachyons-border-radius
 ```
 or download the css on github and include in your project.
 
+## The Code
+```
+
+/*
+
+   BORDER RADIUS
+
+*/
+
+  .brn {        border-radius: 0; }
+  .br {         border-radius: .125rem; }
+  .br2 {        border-radius: .25rem; }
+  .br3 {        border-radius: .5rem; }
+  .br4 {        border-radius: 1rem; }
+  .br5 {        border-radius: 2rem; }
+  .br-circ {    border-radius: 9999px; }
+  .br-100 {     border-radius: 100%; }
+
+@include break(not-small) {
+  .brn-ns {     border-radius: 0; }
+  .br-ns {      border-radius: .125rem; }
+  .br2-ns {     border-radius: .25rem; }
+  .br3-ns {     border-radius: .5rem; }
+  .br4-ns {     border-radius: 1rem; }
+  .br5-ns {     border-radius: 2rem; }
+  .br-circ-ns { border-radius: 9999px; }
+  .br-100-ns {  border-radius: 100%; }
+}
+
+@include break(medium) {
+  .brn-m {     border-radius: 0; }
+  .br-m {      border-radius: .125rem; }
+  .br2-m {     border-radius: .25rem; }
+  .br3-m {     border-radius: .5rem; }
+  .br4-m {     border-radius: 1rem; }
+  .br5-m {     border-radius: 2rem; }
+  .br-circ-m { border-radius: 9999px; }
+  .br-100-m {  border-radius: 100%; }
+}
+
+@include break(large) {
+  .brn-l {     border-radius: 0; }
+  .br-l {      border-radius: .125rem; }
+  .br2-l {     border-radius: .25rem; }
+  .br3-l {     border-radius: .5rem; }
+  .br4-l {     border-radius: 1rem; }
+  .br5-l {     border-radius: 2rem; }
+  .br-circ-l { border-radius: 9999px; }
+  .br-100-l {  border-radius: 100%; }
+}
+```
+
 ## Author
 
 [http://mrmrs.cc - Entire internet gateway to all things mrmrs](http://mrmrs.cc)
