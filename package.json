@@ -2,7 +2,7 @@
   "name": "tachyons-border-radius",
   "version": "1.0.0",
   "style": "tachyons-border-radius.css",
-  "homepage": "http://mrmrs.io/tachyons-border-radius",
+  "homepage": "http://github.com/mrmrs/tachyons-border-radius",
   "description": "Performance based css module.",
   "keywords": [
     "oocss",
