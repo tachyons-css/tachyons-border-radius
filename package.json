@@ -1,6 +1,6 @@
 {
   "name": "tachyons-border-radius",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "style": "tachyons-border-radius.css",
   "homepage": "http://github.com/mrmrs/tachyons-border-radius",
   "description": "Performance based css module.",
