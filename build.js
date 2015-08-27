@@ -20,17 +20,17 @@ var output = postcss([autoprefixer])
   .use(customMedia())
   .process(css, {
     from: "src/tachyons-border-radius.css",
-    to: "css/tachyons-border-radius.css"
+    to: "tachyons-border-radius.css"
   })
   .css
 
-fs.writeFile("css/tachyons-border-radius.css", output, 'utf-8')
+fs.writeFile("tachyons-border-radius.css", output, 'utf-8')
 
 // Using YUI Compressor for CSS
 new compressor.minify({
     type: 'sqwish',
-    fileIn: 'css/tachyons-border-radius.css',
-    fileOut: 'css/tachyons-border-radius.min.css',
+    fileIn: 'tachyons-border-radius.css',
+    fileOut: 'tachyons-border-radius.min.css',
     callback: function(err, min){
     //console.log('Sqwish');
     //console.log(err);
