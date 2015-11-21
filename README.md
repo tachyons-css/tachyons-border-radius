@@ -1,4 +1,4 @@
-# tachyons-border-radius 2.1.0
+# tachyons-border-radius 3.0.1
 
 Border radius CSS module for Tachyons
 
