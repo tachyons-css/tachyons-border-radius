@@ -1,10 +1,10 @@
-# tachyons-border-radius 3.0.1
+# tachyons-border-radius 3.0.2
 
 Border radius CSS module for Tachyons
 
 #### Stats
 
-378 | 28 | 28
+363 | 24 | 24
 ---|---|---
 bytes | selectors | declarations
 
@@ -84,7 +84,6 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 .br2 { border-radius: .25rem; }
 .br3 { border-radius: .5rem; }
 .br4 { border-radius: 1rem; }
-.br5 { border-radius: 2rem; }
 .br-100 { border-radius: 100%; }
 @media screen and (min-width: 48em) {
  .brn-ns { border-radius: 0; }
@@ -92,7 +91,6 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
  .br2-ns { border-radius: .25rem; }
  .br3-ns { border-radius: .5rem; }
  .br4-ns { border-radius: 1rem; }
- .br5-ns { border-radius: 2rem; }
  .br-100-ns { border-radius: 100%; }
 }
 @media screen and (min-width: 48em) and (max-width: 64em) {
@@ -101,7 +99,6 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
  .br2-m { border-radius: .25rem; }
  .br3-m { border-radius: .5rem; }
  .br4-m { border-radius: 1rem; }
- .br5-m { border-radius: 2rem; }
  .br-100-m { border-radius: 100%; }
 }
 @media screen and (min-width: 64em) {
@@ -110,7 +107,6 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
  .br2-l { border-radius: .25rem; }
  .br3-l { border-radius: .5rem; }
  .br4-l { border-radius: 1rem; }
- .br5-l { border-radius: 2rem; }
  .br-100-l { border-radius: 100%; }
 }
 ```
