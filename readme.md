@@ -1,10 +1,10 @@
-# tachyons-border-radius 4.0.1
+# tachyons-border-radius 4.1.0
 
 Border radius CSS module for Tachyons
 
 #### Stats
 
-421 | 32 | 40
+427 | 32 | 40
 ---|---|---
 bytes | selectors | declarations
 
@@ -84,8 +84,8 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 .br3 { border-radius: .5rem; }
 .br4 { border-radius: 1rem; }
 .br-100 { border-radius: 100%; }
-.br--bottom { border-radius-top-left: 0; border-radius-top-right: 0; }
-.br--top { border-radius-bottom-left: 0; border-radius-bottom-right: 0; }
+.br--bottom { border-top-left-radius: 0; border-top-right-radius: 0; }
+.br--top { border-bottom-left-radius: 0; border-bottom-right-radius: 0; }
 @media screen and (min-width: 48em) {
  .br0-ns { border-radius: 0; }
  .br1-ns { border-radius: .125rem; }
@@ -93,8 +93,8 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
  .br3-ns { border-radius: .5rem; }
  .br4-ns { border-radius: 1rem; }
  .br-100-ns { border-radius: 100%; }
- .br--bottom-ns { border-radius-top-left: 0; border-radius-top-right: 0; }
- .br--top-ns { border-radius-bottom-left: 0; border-radius-bottom-right: 0; }
+ .br--bottom-ns { border-top-left-radius: 0; border-top-right-radius: 0; }
+ .br--top-ns { border-bottom-left-radius: 0; border-bottom-right-radius: 0; }
 }
 @media screen and (min-width: 48em) and (max-width: 64em) {
  .br0-m { border-radius: 0; }
@@ -103,8 +103,8 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
  .br3-m { border-radius: .5rem; }
  .br4-m { border-radius: 1rem; }
  .br-100-m { border-radius: 100%; }
- .br--bottom-m { border-radius-top-left: 0; border-radius-top-right: 0; }
- .br--top-m { border-radius-bottom-left: 0; border-radius-bottom-right: 0; }
+ .br--bottom-m { border-top-left-radius: 0; border-top-right-radius: 0; }
+ .br--top-m { border-bottom-left-radius: 0; border-bottom-right-radius: 0; }
 }
 @media screen and (min-width: 64em) {
  .br0-l { border-radius: 0; }
@@ -114,7 +114,7 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
  .br4-l { border-radius: 1rem; }
  .br-100-l { border-radius: 100%; }
  .br--bottom-l { border-radius-top-left: 0; border-radius-top-right: 0; }
- .br--top-l { border-radius-bottom-left: 0; border-radius-bottom-right: 0; }
+ .br--top-l { border-bottom-left-radius: 0; border-bottom-right-radius: 0; }
 }
 ```
 
