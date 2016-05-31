@@ -32,5 +32,9 @@
     "build": "npm run build:css && npm run build:minify && npm run build:docs",
     "build:watch": "watch 'npm run build' ./src"
   },
-  "dependencies": {}
+  "dependencies": {}<
+  "tachyonsModule": {
+    "category": "theming",
+    "isCore": true
+  }
 }
