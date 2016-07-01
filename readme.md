@@ -4,7 +4,7 @@ Border radius CSS module for Tachyons
 
 #### Stats
 
-427 | 32 | 40
+475 | 40 | 56
 ---|---|---
 bytes | selectors | declarations
 
@@ -86,6 +86,8 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 .br-100 { border-radius: 100%; }
 .br--bottom { border-top-left-radius: 0; border-top-right-radius: 0; }
 .br--top { border-bottom-left-radius: 0; border-bottom-right-radius: 0; }
+.br--right { border-top-left-radius: 0; border-bottom-left-radius: 0; }
+.br--left { border-top-right-radius: 0; border-bottom-right-radius: 0; }
 @media screen and (min-width: 48em) {
  .br0-ns { border-radius: 0; }
  .br1-ns { border-radius: .125rem; }
@@ -95,6 +97,8 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
  .br-100-ns { border-radius: 100%; }
  .br--bottom-ns { border-top-left-radius: 0; border-top-right-radius: 0; }
  .br--top-ns { border-bottom-left-radius: 0; border-bottom-right-radius: 0; }
+ .br--right-ns { border-top-left-radius: 0; border-bottom-left-radius: 0; }
+ .br--left-ns { border-top-right-radius: 0; border-bottom-right-radius: 0; }
 }
 @media screen and (min-width: 48em) and (max-width: 64em) {
  .br0-m { border-radius: 0; }
@@ -105,6 +109,8 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
  .br-100-m { border-radius: 100%; }
  .br--bottom-m { border-top-left-radius: 0; border-top-right-radius: 0; }
  .br--top-m { border-bottom-left-radius: 0; border-bottom-right-radius: 0; }
+ .br--right-m { border-top-left-radius: 0; border-bottom-left-radius: 0; }
+ .br--left-m { border-top-right-radius: 0; border-bottom-right-radius: 0; }
 }
 @media screen and (min-width: 64em) {
  .br0-l { border-radius: 0; }
@@ -115,6 +121,8 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
  .br-100-l { border-radius: 100%; }
  .br--bottom-l { border-radius-top-left: 0; border-radius-top-right: 0; }
  .br--top-l { border-bottom-left-radius: 0; border-bottom-right-radius: 0; }
+ .br--right-l { border-top-left-radius: 0; border-bottom-left-radius: 0; }
+ .br--left-l { border-top-right-radius: 0; border-bottom-right-radius: 0; }
 }
 ```
 
