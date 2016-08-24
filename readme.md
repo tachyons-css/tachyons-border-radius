@@ -4,7 +4,7 @@ Border radius CSS module for Tachyons
 
 #### Stats
 
-475 | 40 | 56
+474 | 40 | 56
 ---|---|---
 bytes | selectors | declarations
 
@@ -106,7 +106,7 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 .br--top { border-bottom-left-radius: 0; border-bottom-right-radius: 0; }
 .br--right { border-top-left-radius: 0; border-bottom-left-radius: 0; }
 .br--left { border-top-right-radius: 0; border-bottom-right-radius: 0; }
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 30em) {
  .br0-ns { border-radius: 0; }
  .br1-ns { border-radius: .125rem; }
  .br2-ns { border-radius: .25rem; }
@@ -118,7 +118,7 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
  .br--right-ns { border-top-left-radius: 0; border-bottom-left-radius: 0; }
  .br--left-ns { border-top-right-radius: 0; border-bottom-right-radius: 0; }
 }
-@media screen and (min-width: 48em) and (max-width: 64em) {
+@media screen and (min-width: 30em) and (max-width: 60em) {
  .br0-m { border-radius: 0; }
  .br1-m { border-radius: .125rem; }
  .br2-m { border-radius: .25rem; }
@@ -130,7 +130,7 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
  .br--right-m { border-top-left-radius: 0; border-bottom-left-radius: 0; }
  .br--left-m { border-top-right-radius: 0; border-bottom-right-radius: 0; }
 }
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 60em) {
  .br0-l { border-radius: 0; }
  .br1-l { border-radius: .125rem; }
  .br2-l { border-radius: .25rem; }
