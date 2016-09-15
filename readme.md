@@ -1,10 +1,10 @@
-# tachyons-border-radius 5.0.0
+# tachyons-border-radius 5.0.1
 
 Border radius CSS module for Tachyons
 
 #### Stats
 
-474 | 40 | 56
+498 | 44 | 60
 ---|---|---
 bytes | selectors | declarations
 
@@ -55,7 +55,7 @@ $ tachyons path/to/css-file.css > dist/t.css
 The easiest and most simple way to use the css is to use the cdn hosted version. Include it in the head of your html with:
 
 ```
-<link rel="stylesheet" href="http://npmcdn.com/tachyons-border-radius@5.0.0/css/tachyons-border-radius.min.css" />
+<link rel="stylesheet" href="http://npmcdn.com/tachyons-border-radius@5.0.1/css/tachyons-border-radius.min.css" />
 ```
 
 ##### Locally
@@ -88,6 +88,7 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
      3    = 3rd step in scale
      4    = 4th step in scale
      -100 = 100%
+     -pill = 9999px
 
 
    Media Query Extensions:
@@ -102,6 +103,7 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 .br3 { border-radius: .5rem; }
 .br4 { border-radius: 1rem; }
 .br-100 { border-radius: 100%; }
+.br-pill { border-radius: 9999px; }
 .br--bottom { border-top-left-radius: 0; border-top-right-radius: 0; }
 .br--top { border-bottom-left-radius: 0; border-bottom-right-radius: 0; }
 .br--right { border-top-left-radius: 0; border-bottom-left-radius: 0; }
@@ -113,6 +115,7 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
  .br3-ns { border-radius: .5rem; }
  .br4-ns { border-radius: 1rem; }
  .br-100-ns { border-radius: 100%; }
+ .br-pill-ns { border-radius: 9999px; }
  .br--bottom-ns { border-top-left-radius: 0; border-top-right-radius: 0; }
  .br--top-ns { border-bottom-left-radius: 0; border-bottom-right-radius: 0; }
  .br--right-ns { border-top-left-radius: 0; border-bottom-left-radius: 0; }
@@ -125,6 +128,7 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
  .br3-m { border-radius: .5rem; }
  .br4-m { border-radius: 1rem; }
  .br-100-m { border-radius: 100%; }
+ .br-pill-m { border-radius: 9999px; }
  .br--bottom-m { border-top-left-radius: 0; border-top-right-radius: 0; }
  .br--top-m { border-bottom-left-radius: 0; border-bottom-right-radius: 0; }
  .br--right-m { border-top-left-radius: 0; border-bottom-left-radius: 0; }
@@ -137,7 +141,8 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
  .br3-l { border-radius: .5rem; }
  .br4-l { border-radius: 1rem; }
  .br-100-l { border-radius: 100%; }
- .br--bottom-l { border-radius-top-left: 0; border-radius-top-right: 0; }
+ .br-pill-l { border-radius: 9999px; }
+ .br--bottom-l { border-top-left-radius: 0; border-top-right-radius: 0; }
  .br--top-l { border-bottom-left-radius: 0; border-bottom-right-radius: 0; }
  .br--right-l { border-top-left-radius: 0; border-bottom-left-radius: 0; }
  .br--left-l { border-top-right-radius: 0; border-bottom-right-radius: 0; }
